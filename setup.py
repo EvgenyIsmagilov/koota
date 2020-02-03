@@ -12,14 +12,8 @@ def requirements():
     return requirements_list
 
 
-packages = find_packages(exclude=['tests*'])
+
 requirements = requirements()
-
-
-import pandas as pd # а оно тут надо?
-import numpy as np # а оно тут надо?
-import sys # а оно тут надо?
-
 
 PACKAGE = ""
 NAME = "koota"
@@ -29,7 +23,8 @@ AUTHOR = "Evgeny Ismagilov"
 AUTHOR_EMAIL = "evgenyismagilov@gmail.com"
 URL = "https://github.com/EvgenyIsmagilov/koota"
 VERSION = __import__(PACKAGE).__version__
-PY_MODULES
+ = ['mod1', 'pkg.mod2']
+packages = find_packages()
 
 setup(name=NAME,
       version=VERSION,
@@ -41,7 +36,7 @@ setup(name=NAME,
       url=URL,
       packages=packages,
       install_requires=requirements,
-      py_modules = ['mod1', 'pkg.mod2']
+      py_modules = PY_MODULES
       #, download_url=''
       #, license=''
      )
