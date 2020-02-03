@@ -20,13 +20,28 @@ import pandas as pd # а оно тут надо?
 import numpy as np # а оно тут надо?
 import sys # а оно тут надо?
 
-setup(name='koota',
-      version='0.1',
-      description='Library for data analysis and EDA',
-      keywords='python eda data analysis cleaning',
-      author='Evgeny Ismagilov',
-      author_email='evgenyismagilov@gmail.com',
-      url='https://www.python.org/sigs/distutils-sig/',
+
+PACKAGE = ""
+NAME = "koota"
+DESCRIPTION = "Library for data analysis and EDA"
+KEYWORDS = "python eda data analysis cleaning"
+AUTHOR = "Evgeny Ismagilov"
+AUTHOR_EMAIL = "evgenyismagilov@gmail.com"
+URL = "https://github.com/EvgenyIsmagilov/koota"
+VERSION = __import__(PACKAGE).__version__
+PY_MODULES
+
+setup(name=NAME,
+      version=VERSION,
+      description=DESCRIPTION,
+      keywords=KEYWORDS,
+      long_description=read("README.md"),
+      author=AUTHOR,
+      author_email=AUTHOR_EMAIL,
+      url=URL,
       packages=packages,
-      install_requires=requirements
+      install_requires=requirements,
+      py_modules = ['mod1', 'pkg.mod2']
+      #, download_url=''
+      #, license=''
      )
