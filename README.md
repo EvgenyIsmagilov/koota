@@ -20,4 +20,6 @@ License
 
 MIT
 
+## Contact
 
+You can take part into the development of this project. Also you can contact me via telegram [@evgenyismagilov](https://t.me/evgenyismagilov).
