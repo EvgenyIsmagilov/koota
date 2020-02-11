@@ -19,9 +19,9 @@ setup(name='koota',
     author_email="evgenyismagilov@gmail.com",
     url='https://github.com/EvgenyIsmagilov/koota',
     packages=find_packages(),
-    long_description=read("README.md"),  
+    #long_description=read("README.md"),   # какая то проблема
     # important
-    #install_requires=requirements,
+    install_requires=requirements,
     license='MIT', 
     download_url = 'https://github.com/EvgenyIsmagilov/koota/archive/0.0.1-alpha.tar.gz',
     keywords = ['EDA', 'DATA', 'CLEANING', 'analysis', 'koota'],
