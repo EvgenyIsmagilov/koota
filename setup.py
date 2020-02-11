@@ -17,7 +17,7 @@ setup(name='koota',
     description='beta library',
     author='Jenya',
     url='https://github.com/EvgenyIsmagilov/koota',
-    packages=['koota'],
+    packages=find_packages(),
       
     # important
     requirements=requirements,
