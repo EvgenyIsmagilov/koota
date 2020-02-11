@@ -14,16 +14,17 @@ requirements = requirements()
 
 setup(name='koota',
     version='0.0.1',
-    description='beta library',
-    author='Jenya',
+    description='Library for data analysis and EDA',
+    author='Evgeny Ismagilov',
+    author_email="evgenyismagilov@gmail.com"
     url='https://github.com/EvgenyIsmagilov/koota',
     packages=find_packages(),
-      
+    long_description=read("README.md"),  
     # important
-    requirements=requirements,
+    install_requires=requirements,
     license='MIT', 
     download_url = 'https://github.com/EvgenyIsmagilov/koota/archive/0.0.1-alpha.tar.gz',
-    keywords = ['EDA', 'DATA', 'CLEANING'],
+    keywords = ['EDA', 'DATA', 'CLEANING', 'analysis', 'koota'],
     classifiers=[
         'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
         'Intended Audience :: Data Analysts',      # Define that your audience are developers
