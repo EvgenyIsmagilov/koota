@@ -7,7 +7,6 @@ setup(name='koota',
     url='https://github.com/EvgenyIsmagilov/koota',
     packages=['koota'],
     install_requires=[
-        'unidecode',
-        'pandas'
+        'unidecode'
         ]
      )
