@@ -1,12 +1,26 @@
 from setuptools import setup, find_packages
 
+def requirements():
+    """Build the requirements list for this project"""
+    requirements_list = []
+
+    with open('requirements.txt') as requirements:
+        for install in requirements:
+            requirements_list.append(install.strip())
+
+    return requirements_list
+
+requirements = requirements()
+
 setup(name='koota',
     version='0.0.1',
     description='beta library',
     author='Jenya',
     url='https://github.com/EvgenyIsmagilov/koota',
     packages=['koota'],
+      
     # important
+    requirements=requirements,
     license='MIT', 
     download_url = 'https://github.com/EvgenyIsmagilov/koota/archive/0.0.1-alpha.tar.gz',
     keywords = ['EDA', 'DATA', 'CLEANING'],
