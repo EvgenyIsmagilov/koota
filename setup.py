@@ -22,7 +22,7 @@ KEYWORDS = "python eda data analysis cleaning"
 AUTHOR = "Evgeny Ismagilov"
 AUTHOR_EMAIL = "evgenyismagilov@gmail.com"
 URL = "https://github.com/EvgenyIsmagilov/koota"
-VERSION = __import__(PACKAGE).__version__
+VERSION = 0.0.1 #__import__(PACKAGE).__version__
  = ['mod1', 'pkg.mod2']
 packages = ['koota'] #find_packages()
 
