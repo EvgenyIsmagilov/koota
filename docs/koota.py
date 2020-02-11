@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-class koota:
-    def __init__(self)
+# class koota:
+#     def __init__(self)
 
 
 def oonoki(data):
