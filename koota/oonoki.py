@@ -89,7 +89,4 @@ def oonoki(data):
     mem_usg = round(data.memory_usage().sum() / 1024**2, 2)
     print("Memory usage is: ",mem_usg," MB")
     print("This is ",round(100*mem_usg/start_mem_usg, 2),"% of the initial size")
-    return data, NAlist
-
-class oonoki:
-    pass
+    return data, NAlist;
