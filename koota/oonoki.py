@@ -90,3 +90,6 @@ def oonoki(data):
     print("Memory usage is: ",mem_usg," MB")
     print("This is ",round(100*mem_usg/start_mem_usg, 2),"% of the initial size")
     return data, NAlist
+
+class oonoki:
+    pass
