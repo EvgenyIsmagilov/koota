@@ -24,7 +24,7 @@ AUTHOR_EMAIL = "evgenyismagilov@gmail.com"
 URL = "https://github.com/EvgenyIsmagilov/koota"
 VERSION = __import__(PACKAGE).__version__
  = ['mod1', 'pkg.mod2']
-packages = find_packages()
+packages = ['koota'] #find_packages()
 
 setup(name=NAME,
       version=VERSION,
