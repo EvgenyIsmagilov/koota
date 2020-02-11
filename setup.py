@@ -5,6 +5,6 @@ setup(name='koota',
     description='beta library',
     author='Jenya',
     url='https://github.com/EvgenyIsmagilov/koota',
-    packages=['koota']
+    packages=['docs']
       #,install_requires=['unidecode']
      )
