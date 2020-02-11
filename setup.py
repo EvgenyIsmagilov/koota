@@ -9,4 +9,5 @@ setup(name='koota',
     install_requires=[
         'unidecode',
         'pandas'
-    ]
+        ]
+     )
