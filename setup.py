@@ -19,7 +19,7 @@ setup(name='koota',
     author_email="evgenyismagilov@gmail.com",
     url='https://github.com/EvgenyIsmagilov/koota',
     packages=find_packages(),
-    #long_description=read("README.md"),  
+    long_description=read("README.md"),  
     # important
     #install_requires=requirements,
     license='MIT', 
