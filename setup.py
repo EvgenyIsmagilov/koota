@@ -13,7 +13,7 @@ def requirements():
 requirements = requirements()
 
 setup(name='koota',
-    version='0.0.1',
+    version=__import__(PACKAGE).__version__, #'0.0.1',
     description='beta library',
     author='Jenya',
     url='https://github.com/EvgenyIsmagilov/koota',
