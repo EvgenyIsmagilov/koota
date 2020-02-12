@@ -22,4 +22,4 @@ MIT
 
 ## Contact
 
-You can take part in development of this project. Also you can contact me via telegram [@evgenyismagilov](https://t.me/evgenyismagilov).
+Feel free to take part in development of this project. Also you can contact me via telegram [@evgenyismagilov](https://t.me/evgenyismagilov).
