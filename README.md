@@ -18,7 +18,7 @@ Koota is a library that saves time on routine tasks like:
 License
 ----
 
-MIT
+GNU Affero General Public License v3.0
 
 ## Contact
 
