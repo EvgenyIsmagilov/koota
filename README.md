@@ -22,8 +22,4 @@ GNU Affero General Public License v3.0
 
 ## Contact
 
-Feel free to take part in development of this project. Also you can contact me via telegram [@evgenyismagilov](https://t.me/evgenyismagilov){:target="_blank" rel="noopener"}.
-
-<a href="https://t.me/evgenyismagilov" target="_blank">example</a>
-
-<a href="https://t.me/evgenyismagilov" target="_blank" rel="noopener"><span>Example Text</span> </a>.
+Feel free to take part in development of this project. Also you can contact me via telegram <a href="https://t.me/evgenyismagilov" target="_blank">@evgenyismagilov</a>.
