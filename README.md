@@ -22,4 +22,4 @@ GNU Affero General Public License v3.0
 
 ## Contact
 
-Feel free to take part in development of this project. Also you can contact me via telegram [@evgenyismagilov](https://t.me/evgenyismagilov).
+Feel free to take part in development of this project. Also you can contact me via telegram [@evgenyismagilov](https://t.me/evgenyismagilov){target="_blank"}.
