@@ -20,7 +20,7 @@ As some of you have already noticed koota's function has the names of famous cha
 ### Oonoki
 Oonoki is the character of the anime Naruto, his ability was jutso of decreasing the object sizes. So, the main goal of the koota.oonoki is the same - decrease the size.
 
-![Image of Oonoki](files_for_title/Onoki_full.png | width="200" )
+![Image of Oonoki](files_for_title/Onoki_full.png)
 
 License
 ----
