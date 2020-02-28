@@ -7,7 +7,9 @@ import numpy as np
 
 
 def oonoki(data):
-
+"""
+This function allows to decrease the size of DataFrame through the efficient type encoding of column types.
+"""
     import sys
     start_mem_usg = round(data.memory_usage().sum() / 1024**2, 2)
     print("Memory usage of properties dataframe is :",start_mem_usg," MB")
