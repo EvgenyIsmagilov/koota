@@ -16,10 +16,10 @@ Koota is a library that saves time on routine tasks like:
  - create classes
 
 ### Oonoki
-files_for_title/Onoki_full.png
-https://raw.githubusercontent.com/EvgenyIsmagilov/koota/master/files_for_title/Onoki_full.png
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](files_for_title/Onoki_full.png)
+
+![Image of Yaktocat](https://raw.githubusercontent.com/EvgenyIsmagilov/koota/master/files_for_title/Onoki_full.png)
 
 License
 ----
