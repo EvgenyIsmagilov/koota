@@ -15,6 +15,10 @@ Koota is a library that saves time on routine tasks like:
  - add new modules
  - create classes
 
+### Oonoki
+files_for_title/Onoki_full.png
+https://raw.githubusercontent.com/EvgenyIsmagilov/koota/master/files_for_title/Onoki_full.png
+
 License
 ----
 
