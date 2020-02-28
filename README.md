@@ -17,9 +17,8 @@ Koota is a library that saves time on routine tasks like:
 
 ### Oonoki
 
-![Image of Yaktocat](files_for_title/Onoki_full.png)
+![Image of Oonoki](files_for_title/Onoki_full.png)
 
-![Image of Yaktocat](https://raw.githubusercontent.com/EvgenyIsmagilov/koota/master/files_for_title/Onoki_full.png)
 
 License
 ----
