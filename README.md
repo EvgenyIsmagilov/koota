@@ -9,16 +9,18 @@ Koota is a library that saves time on routine tasks like:
   - Smart encoding of features (naruto);
   - Removing double space (mario).
 
+As some of you have already noticed koota's function has the names of famous characters. Moreover functionality of this functions correlayes with the main powers and features of this characters, look:
+<!--
 ### Todos
 
  - Enhance view trough using amazing https://dillinger.io/
  - add new modules
  - create classes
-
+-->
 ### Oonoki
+Oonoki is the character of the anime Naruto, his ability was jutso of decreasing the object sizes. So, the main goal of the koota.oonoki is the same - decrease the size.
 
-![Image of Oonoki](files_for_title/Onoki_full.png)
-
+![Image of Oonoki](files_for_title/Onoki_full.png =250x250)
 
 License
 ----
