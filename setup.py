@@ -13,7 +13,7 @@ def requirements():
 requirements = requirements()
 
 setup(name='koota',
-    version='0.0.1',
+    version='0.0.2',
     description='Library for data analysis and EDA',
     author='Evgeny Ismagilov',
     author_email="evgenyismagilov@gmail.com",
