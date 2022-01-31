@@ -15,10 +15,11 @@ requirements = requirements()
 setup(name='koota',
     version='0.0.2',
     description='Library for data analysis and EDA',
+    long_description=open('README.md').read(),
     author='Evgeny Ismagilov',
     author_email="evgenyismagilov@gmail.com",
     url='https://github.com/EvgenyIsmagilov/koota',
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests']),
     #long_description=read("README.md"),   # какая то проблема
     # important
     install_requires=requirements,

@@ -1,7 +1,8 @@
+# надо привести все в божеский вид ( стоит ли вообще?)
+import pandas as pd
+from sklearn.preprocessing import LabelEncoder
+
 def naruto(data, target='kavabanga', mario=True, ant_man=True, oonoki=True):
-#*********************** Libraries
-    import pandas as pd
-    from sklearn.preprocessing import LabelEncoder
     sys = False # может есть нормальный способ проверить, установлена ли библиотека?
     
 #*********************** Foundamental figures 

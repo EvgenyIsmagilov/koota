@@ -1,6 +1,9 @@
+import re
+import sys
+
+
 def mario(data):
-  import re
-  import sys
+  # function eliminate redundant brackets
   if type(data).__name__ == 'str':
     data = data.replace(r'\s+','', regex=True)
   elif type(data).__name__ == 'DataFrame':
@@ -12,7 +15,6 @@ def mario(data):
   else:
     try:
       data = data.replace(r'\s+','', regex=True)
-    except:
-      print('"Научись нормальный код писать уже" - сказал Марио юному программисту.')
+    except Exception:
       print(sys.exc_info())
   return data
