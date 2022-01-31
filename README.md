@@ -3,6 +3,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)  ![Python 3.6](https://img.shields.io/badge/Python-3.7-blue.svg) ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
+PyPi link(https://pypi.org/project/koota/)
 
 Koota is a library that saves time on routine tasks like:
  - Decreasing size of the Dataframe (oonoki);
