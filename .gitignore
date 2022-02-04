@@ -130,3 +130,5 @@ dmypy.json
 *.txt
 *.json
 
+# Secrets
+*pypirc
