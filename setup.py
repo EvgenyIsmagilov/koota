@@ -7,7 +7,6 @@ def requirements():
     with open('requirements.txt') as requirements:
         for install in requirements:
             requirements_list.append(install.strip())
-
     return requirements_list
 
 requirements = requirements()
@@ -15,7 +14,8 @@ requirements = requirements()
 setup(name='koota',
     version='0.0.2',
     description='Library for data analysis and EDA',
-    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown'
+    # long_description=open('README.md').read(),
     author='Evgeny Ismagilov',
     author_email="evgenyismagilov@gmail.com",
     url='https://github.com/EvgenyIsmagilov/koota',
