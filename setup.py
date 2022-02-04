@@ -24,7 +24,7 @@ setup(name='koota',
     # important
     install_requires=requirements,
     license='MIT', 
-    download_url = 'https://github.com/EvgenyIsmagilov/koota/archive/0.0.1-alpha.tar.gz',
+    download_url = 'https://github.com/EvgenyIsmagilov/koota/archive/refs/tags/0.0.2.tar.gz',
     keywords = ['EDA', 'DATA', 'CLEANING', 'analysis', 'koota'],
     classifiers=[
         'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
